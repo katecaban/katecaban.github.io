@@ -1,0 +1,92 @@
+
+body {
+    content: 720px;
+    padding: 54px;
+    margin-left: 6px;
+    border-left: #dddddd solid;
+    font-family: 'Lato', sans-serif;
+    color: #444444;
+    font-weight: lighter;
+}
+img {
+    display: block;
+    max-width: 650px;
+}
+h1 {
+    color: #DD0000;
+    font-size: 55px;
+    font-weight: lighter;
+}
+h2 {
+    color: #cccccc;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+h3 {
+    font-size: 32px;
+    color: black;
+    font-weight: lighter;
+}
+h4{
+    font-size: 28px;
+    color: black;
+    font-weight: lighter;
+}
+h6 {
+    font-size: 15px;
+    color: #bbbbbb;
+    font-weight: lighter;
+}
+p{
+    width: 640px;
+}
+
+#navitop {
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#navitop a:link {
+    color: #dddddd;
+    text-decoration: none;
+    padding-right: 10px;
+}
+#navitop a:visited {
+    color: #dddddd;
+}
+#navitop a:hover {
+    color: black;
+}
+
+#cont {
+    text-align: right;
+    width: 640px;
+    font-weight: normal;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 18px;
+}
+#cont a:link {
+    color: #DD0000;
+    text-decoration: none;
+}
+#cont a:visited {
+    color: #DD0000;
+}
+#cont a:hover {
+    color: #aa0000;
+}
+ 
+#navibottom{
+    text-align: left;
+    padding-top: 40px;
+}    
+#navibottom a:link {
+    color: #DD0000;
+    text-decoration: none;
+}
+#navibottom a:visited {
+    color: #DD0000
+}
+#navibottom a:hover {
+    color: #aa0000;
+}
