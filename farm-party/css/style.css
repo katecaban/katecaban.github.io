@@ -1,0 +1,111 @@
+body {
+	background: url(../images/cloud_2.gif);
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	margin: 10%;
+}
+#sun {
+	position: fixed;
+	top: 40px;
+	left: 800px;
+}
+#tree {
+	position: fixed;
+	left: 10px;
+	bottom: 35px;
+}
+#chicken-humming {
+	position: fixed;
+	left: 80px;
+	bottom: 200px;
+}
+#pig-dives {
+	position: fixed;
+	left: 10px;
+	bottom: 30px;
+}
+#pig-dance {
+	position: fixed;
+	left: 120px;
+	bottom: 35px;
+}
+#cow-flowers {
+	position: fixed;
+	left: 180px;
+	bottom: 35px;
+}
+#chicken-step {
+	position: fixed;
+	left: 300px;
+	bottom: 35px;
+}
+#sheep {
+	position: fixed;
+	left: 350px;
+	bottom: 25px;
+}
+#cow-head {
+	position: fixed;
+	left: 410px;
+	bottom: 35px;
+}
+#chicken-timbrel {
+	position: fixed;
+	left: 500px;
+	bottom: 35px;
+}
+#lamb {
+	position: fixed;
+	left: 280px;
+	bottom: 35px;
+}
+#cat-dog {
+	position: fixed;
+	right: 540px;
+	bottom: 25px;
+}
+#cow-dancing {
+	position: fixed;
+	right: 340px;
+	bottom: 20px;
+}
+#chicken-dance {
+	position: fixed;
+	right: 260px;
+	bottom: 35px;
+}
+#man {
+	position: fixed;
+	right: 155px;
+	bottom: 35px;
+}
+#cow-jumping {
+	position: fixed;
+	right: 15px;
+	bottom: 35px;
+}
+#horse {
+	position: fixed;
+	right: 10px;
+	bottom: 35px;
+}
+#grass {
+	background-color: green;
+	height: 40px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: " ";
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
