@@ -138,20 +138,26 @@ h3 {
 }
 #copyright {
 	font-size: 1.2em;
-	position: fixed;
-	width: 20%;
-	right: 0px;
-	bottom: 60px;
 	color: #A3211F;
+	display: block;
+	width: 20%;
+	float: left;
+	margin-left: 1%;
+	/*position: fixed;*/
+	/*width: 30%;*/
+/*	right: 0px;
+	bottom: 60px;*/
 }
 #notebottom {
-	font-size: 1.1em;
-	overflow: hidden;
-	position: fixed;
-	width: 20%;
-	right: 0;
-	bottom: 40px;
+	font-size: 1.2em;
+	display: block;
+	float: left;
 	color: #A3211F;
+	/*overflow: hidden;*/
+	/*position: fixed;*/
+	/*width: 30%;*/
+	/*right: 0;*/
+	/*bottom: 40px;*/
 }
 /*span {
 	color: white;
@@ -178,29 +184,39 @@ h3 {
 	}
 }
 @media only screen and (min-width: 1350px) {
-	#wrapper {
+	body {
 		width: 1350px;
 	}
 }
 
-
 @media only screen and (max-width: 960px) {
 	body {
 		font-size: 0.8em;
-	}
-	.wrapper {
-		height: 50em;
+		height: 40em;
 	}
 	nav {
 		float: none;
 		width: 100%;
 		clear: both;
 		padding-left: 1%;
-	}	
-}
+	}
+	nav a {
+		float: none;
+		width: auto;
+		display: left;
+		font-size: 1.5em;
+		padding-bottom: 3%;
+		text-align: left;
+	}
+	#streetnumber #streetname {
+		font-size: 0.8em;
+	}
 @media only screen and (max-width: 630px) {
 	body {
+		width: 70%;
+		height: 60%;
 		font-size: 0.3em;
+		height: 20em;
 	}
 	nav a {
 		float: none;
@@ -216,11 +232,8 @@ h3 {
 	#innernav {
 		display: none;
 	}
-	.wrapper {
-		height: 20em;
-	}
 @media only screen and (max-width: 450px) {
-	#wrapper {
+	body {
 		width: 98%;
 	}
 	nav a {
