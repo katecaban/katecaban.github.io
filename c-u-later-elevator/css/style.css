@@ -15,12 +15,11 @@ html, body, #map-canvas {
 #hamburger {
 	font-size: 2em;
 	display: none;
-	background-color: #C2D6D6;
+	background-color: #66A3BD;
 	color: white;
 }
 nav a {
-	/*color: #CCCCCC;*/
-	color: #BA3A38;
+	color: #66A3BD;
 	font-size: 1.6em;
 	display: block;
 	text-align: center;
@@ -155,9 +154,8 @@ h3 {
 	color: #A3211F;
 }
 /*span {
-	color: #A4C2C2;
+	color: white;
 }*/
-
 .clearfix:after {
 	content: " ";
 	display: block;
@@ -166,7 +164,6 @@ h3 {
 	line-height: 0;
 	height: 0;
 }
-
 @media print {
 	body {
 		background-color: white;
@@ -180,19 +177,19 @@ h3 {
 		color: black;
 	}
 }
-
 @media only screen and (min-width: 1350px) {
-	#container {
+	#wrapper {
 		width: 1350px;
 	}
 }
 
+
 @media only screen and (max-width: 960px) {
 	body {
-		font-size: 0.5em;
+		font-size: 0.8em;
 	}
-	.banner {
-		height: 30em;
+	.wrapper {
+		height: 50em;
 	}
 	nav {
 		float: none;
@@ -201,7 +198,6 @@ h3 {
 		padding-left: 1%;
 	}	
 }
-
 @media only screen and (max-width: 630px) {
 	body {
 		font-size: 0.3em;
@@ -220,30 +216,12 @@ h3 {
 	#innernav {
 		display: none;
 	}
-	.banner {
+	.wrapper {
 		height: 20em;
 	}
-	.blurb p {
-		display: none;
-	}
-	.callout {
-		float: none;
-		width: auto;
-		display: left;
-		font-size: 1.6em;
-		text-align: left;
-	}
-}
-
 @media only screen and (max-width: 450px) {
-	#container {
+	#wrapper {
 		width: 98%;
-	}
-	.banner {
-		height: 15em;
-	}
-	.callout p {
-		display: none;
 	}
 	nav a {
 		font-size: 3em;
